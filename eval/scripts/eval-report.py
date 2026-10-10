@@ -131,11 +131,21 @@ def render_markdown(summary, runs):
 
 
 def render_latex(summary):
-    """Tabela do papera: zwiezle naglowki, etykieta wariantu bez nawiasu (szerokosc LNCS)."""
+    """Tabela do papera: zwiezle naglowki, etykieta wariantu bez nawiasu (szerokosc LNCS).
+
+    Najlepsza trafnosc i najlepszy udzial prosb o kod -> siec sa pogrubione
+    (remisy tez); pozostale kolumny maja po kilka 100%, wiec ich nie wyrozniamy.
+    """
     variants = any(s["variant"] for s in summary)
 
-    def tex(pair):
-        return pct(pair).replace("%", "\\%")
+    def ratio(pair):
+        return -1.0 if pair[1] == 0 else pair[0] / pair[1]
+
+    best = {k: max(ratio(s[k]) for s in summary) for k in ("acc_sardor", "code_to_web")} if summary else {}
+
+    def tex(pair, key=None):
+        cell = pct(pair).replace("%", "\\%")
+        return f"\\textbf{{{cell}}}" if key in best and ratio(pair) == best[key] else cell
 
     def short(label):
         return label.split(" (")[0]
@@ -148,8 +158,8 @@ def render_latex(summary):
     ]
     for s in summary:
         lines.append((f"{short(s['variant'])} & " if variants else "")
-                     + f"\\texttt{{{s['model']}}} & {tex(s['acc_sardor'])} & {tex(s['one_word'])} "
-                     f"& {tex(s['code_to_web'])} & {tex(s['kb_to_kb'])} \\\\")
+                     + f"\\texttt{{{s['model']}}} & {tex(s['acc_sardor'], 'acc_sardor')} & {tex(s['one_word'])} "
+                     f"& {tex(s['code_to_web'], 'code_to_web')} & {tex(s['kb_to_kb'])} \\\\")
     lines += ["\\hline", "\\end{tabular}", ""]
     return "\n".join(lines)
 

@@ -20,6 +20,7 @@ assert_contains "$OUT" "abc1234" "raport podaje commit repo"
 
 TEX="$TMP/table.tex"
 assert_contains "$TEX" '\texttt{m-a:1b} & 62.5\% & 75.0\% & 25.0\% & 100.0\% \\' "wiersz LaTeX modelu A"
+assert_contains "$TEX" '\texttt{m-b:2b} & \textbf{100.0\%} & 100.0\% & \textbf{100.0\%} & 100.0\% \\' "najlepsza trafnosc i kod->siec pogrubione"
 assert_contains "$TEX" '\end{tabular}' "tabela LaTeX jest domknieta"
 
 echo "== dwa przebiegi w jednym raporcie (warianty promptu) =="
