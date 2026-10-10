@@ -1,0 +1,54 @@
+id	category	source	source_ref	license	question	label
+code-01	code	conala	stackoverflow:30843103	MIT	How to get the index of an integer from a list if the list contains a boolean?	web_search
+code-02	code	conala	stackoverflow:2212433	MIT	Counting the Number of keywords in a dictionary in python	web_search
+code-03	code	conala	stackoverflow:373194	MIT	Python regex for MD5 hash	web_search
+code-04	code	conala	stackoverflow:7138686	MIT	How to write a list to a file with newlines in Python3	web_search
+code-05	code	conala	stackoverflow:5891453	MIT	Is there a Python Library that contains a list of all the ascii characters?	web_search
+code-06	code	conala	stackoverflow:5010536	MIT	Python: Perform an operation on each dictionary value	web_search
+code-07	code	conala	stackoverflow:2984751	MIT	Django filter by hour	web_search
+code-08	code	conala	stackoverflow:1866343	MIT	Removing an element from a list based on a predicate	web_search
+code-09	code	conala	stackoverflow:35945473	MIT	How to reverse a dictionary in Python?	web_search
+code-10	code	conala	stackoverflow:20461165	MIT	How to convert pandas index in a dataframe to a column?	web_search
+code-11	code	conala	stackoverflow:1450897	MIT	Python: removing characters except digits from string	web_search
+code-12	code	conala	stackoverflow:25651990	MIT	OSError: [WinError 193] %1 is not a valid Win32 application	web_search
+code-13	code	conala	stackoverflow:14637696	MIT	Length of longest word in a list	web_search
+code-14	code	conala	stackoverflow:438684	MIT	How to convert a list of longs into a comma separated string in python	web_search
+code-15	code	conala	stackoverflow:406121	MIT	Flattening a shallow list in Python	web_search
+code-16	code	conala	stackoverflow:1592158	MIT	Convert hex to float	web_search
+code-17	code	conala	stackoverflow:4914277	MIT	How to empty a file using Python	web_search
+code-18	code	conala	stackoverflow:5404068	MIT	How to read keyboard-input?	web_search
+code-19	code	conala	stackoverflow:18524642	MIT	Convert list of lists to list of integers	web_search
+code-20	code	conala	stackoverflow:26443308	MIT	Find last occurrence of character	web_search
+recent-01	recent	retrievalqa	freshqa:freshqa_385	MIT	What is the current most popular Wikipedia article of the Week?	web_search
+recent-02	recent	retrievalqa	realtimeqa:realtimeqa_20231117_16	MIT	Which company is planning to label “realistic” AI-generated content?	web_search
+recent-03	recent	retrievalqa	freshqa:freshqa_485	MIT	What is the current age of the oldest person to sail solo across the Pacific Ocean?	web_search
+recent-04	recent	retrievalqa	realtimeqa:realtimeqa_20231208_18	MIT	Which lawmaker announced that he is leaving Congress at the end of this year?	web_search
+recent-05	recent	retrievalqa	realtimeqa:realtimeqa_20231201_16	MIT	Which country said it will ban smoking on beaches and in public parks?	web_search
+recent-06	recent	retrievalqa	realtimeqa:realtimeqa_20231208_12	MIT	Which company is investigating a hack involving millions of user accounts?	web_search
+recent-07	recent	retrievalqa	realtimeqa:realtimeqa_20231117_11	MIT	State labs recently found “extremely high” levels of lead in which popular snack food?	web_search
+recent-08	recent	retrievalqa	realtimeqa:realtimeqa_20231027_3	MIT	Formula 1 ace Max Verstappen's victory in the US Grand Prix last Sunday brought his total tally of wins this season to what?	web_search
+recent-09	recent	retrievalqa	realtimeqa:realtimeqa_20231006_17	MIT	Which organization was recently impacted by a cyberattack affecting its unclassified websites?	web_search
+recent-10	recent	retrievalqa	realtimeqa:realtimeqa_20231103_0	MIT	Which Republican candidate dropped out of the 2024 US presidential race last weekend?	web_search
+kb-01	kb	authors	PEP 8: Tabs or Spaces?		Should I indent Python code with tabs or spaces?	vectorstore
+kb-02	kb	authors	PEP 8: Maximum Line Length		What is the recommended maximum line length for Python code?	vectorstore
+kb-03	kb	authors	PEP 8: Should a Line Break Before or After a Binary Operator?		When a long arithmetic expression wraps, should the line break go before or after the operator?	vectorstore
+kb-04	kb	authors	PEP 8: Imports		In what order should I group the imports at the top of a Python file?	vectorstore
+kb-05	kb	authors	PEP 8: Whitespace in Expressions and Statements		Is it OK to put spaces just inside parentheses and brackets in Python?	vectorstore
+kb-06	kb	authors	PEP 8: Naming Conventions		How should constants be named in a Python module?	vectorstore
+kb-07	kb	authors	PEP 8: Inline Comments		Are inline comments recommended in Python, and how should they be formatted?	vectorstore
+kb-08	kb	authors	PEP 8: Programming Recommendations		Should I compare a value to None with == or with is?	vectorstore
+kb-09	kb	authors	Google Python Style Guide: 3.8 Comments and Docstrings		What sections should a function docstring have in Google-style Python code?	vectorstore
+kb-10	kb	authors	Google Python Style Guide: 3.16 Naming		Which kinds of variable names should I avoid in Python according to the Google Python Style Guide?	vectorstore
+kb-11	kb	authors	Google Python Style Guide: 2.2 Imports		Does the Google Python Style Guide allow importing individual classes and functions, or only modules?	vectorstore
+kb-12	kb	authors	Google Python Style Guide: 2.4 Exceptions		Is it acceptable to use a bare except clause to catch all errors?	vectorstore
+kb-13	kb	authors	Google Python Style Guide: 2.12 Default Argument Values		Can I use a mutable object, such as a list, as a default argument value?	vectorstore
+kb-14	kb	authors	Google Python Style Guide: 2.10 Lambda Functions		When is it fine to use a lambda instead of a regular function definition?	vectorstore
+kb-15	kb	authors	Google Python Style Guide: 3.10 Strings		Should I build strings with f-strings, the % operator or + concatenation?	vectorstore
+kb-16	kb	authors	Google Python Style Guide: 3.19 Type Annotations		Should public functions in my Python code have type annotations?	vectorstore
+kb-17	kb	authors	Rules of ML: Rule #1		Should I wait until I have a machine learning model before launching a new product feature?	vectorstore
+kb-18	kb	authors	Rules of ML: Rule #4		How complex should my first machine learning model be?	vectorstore
+kb-19	kb	authors	Rules of ML: Rule #29 and Rule #37		How do I avoid differences between the features used in training and the features used at serving time?	vectorstore
+kb-20	kb	authors	Rules of ML: Rule #14		Is it better to start with an interpretable model or with a complex one?	vectorstore
+sardor-01	sardor	ml-dip-workshop	llm_RAG.ipynb test_queries (commit 98288b7)		How to write Merge Sort Algorithm?	web_search
+sardor-02	sardor	ml-dip-workshop	llm_RAG.ipynb test_queries (commit 98288b7)		How to implement Regression Machine Learning Model?	web_search
+sardor-03	sardor	ml-dip-workshop	thesis Figure 11 / paper Fig. 2		How to write Unsupervised Learning algorithm - Clustering?	web_search

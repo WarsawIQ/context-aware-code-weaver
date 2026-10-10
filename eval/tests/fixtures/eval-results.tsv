@@ -1,0 +1,17 @@
+task	model	model_digest	rep	id	category	label	decision_sardor	decision_strict	latency_s	status	raw_output
+coding-router	m-a:1b	aaaaaaaaaaaa1111	1	code-01	code	web_search	web_search	web_search	0.50	ok	web_search
+coding-router	m-a:1b	aaaaaaaaaaaa1111	1	kb-01	kb	vectorstore	vectorstore	vectorstore	0.50	ok	vectorstore
+coding-router	m-a:1b	aaaaaaaaaaaa1111	1	recent-01	recent	web_search	web_search	web_search	0.50	ok	web_search
+coding-router	m-a:1b	aaaaaaaaaaaa1111	1	sardor-01	sardor	web_search	vectorstore	invalid	0.50	ok	I'd say vectorstore
+coding-router	m-a:1b	aaaaaaaaaaaa1111	2	code-01	code	web_search	vectorstore	vectorstore	0.50	ok	vectorstore
+coding-router	m-a:1b	aaaaaaaaaaaa1111	2	kb-01	kb	vectorstore	vectorstore	vectorstore	0.50	ok	vectorstore
+coding-router	m-a:1b	aaaaaaaaaaaa1111	2	recent-01	recent	web_search	web_search	web_search	0.50	ok	web_search
+coding-router	m-a:1b	aaaaaaaaaaaa1111	2	sardor-01	sardor	web_search	vectorstore	invalid	0.50	ok	I'd say vectorstore
+coding-router	m-b:2b	bbbbbbbbbbbb2222	1	code-01	code	web_search	web_search	web_search	0.50	ok	web_search
+coding-router	m-b:2b	bbbbbbbbbbbb2222	1	kb-01	kb	vectorstore	vectorstore	vectorstore	0.50	ok	vectorstore
+coding-router	m-b:2b	bbbbbbbbbbbb2222	1	recent-01	recent	web_search	web_search	web_search	0.50	ok	web_search
+coding-router	m-b:2b	bbbbbbbbbbbb2222	1	sardor-01	sardor	web_search	web_search	web_search	0.50	ok	web_search
+coding-router	m-b:2b	bbbbbbbbbbbb2222	2	code-01	code	web_search	web_search	web_search	0.50	ok	web_search
+coding-router	m-b:2b	bbbbbbbbbbbb2222	2	kb-01	kb	vectorstore	vectorstore	vectorstore	0.50	ok	vectorstore
+coding-router	m-b:2b	bbbbbbbbbbbb2222	2	recent-01	recent	web_search			1.00	TIMEOUT	
+coding-router	m-b:2b	bbbbbbbbbbbb2222	2	sardor-01	sardor	web_search	web_search	web_search	0.50	ok	web_search

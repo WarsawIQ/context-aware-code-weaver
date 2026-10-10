@@ -1,0 +1,10 @@
+# source: ssheraliev/ml-dip-workshop rag_llm_app.py, commit 98288b7 (2025-05-04), router_prompt_template
+# render: langchain-dict
+# label: app (rag_llm_app.py)
+# note: router_app = {"question": RunnablePassthrough()} | router_prompt, wiec w miejsce pytania trafia slownik; sprawdzone na langchain-core 0.3.59
+
+Given the user query, determine if it is best answered using internal knowledge on Python related tasks (use PEP8, Google Python Style Guide) and ML best practices (Google's Rules of ML), or if it requires a real-time web search for general programming topics, specific code examples not related to style/ML rules, current events, or very recent information.
+Respond only with the word 'vectorstore' or 'web_search'.
+
+User Query: {question}
+Decision:

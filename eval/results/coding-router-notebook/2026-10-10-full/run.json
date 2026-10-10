@@ -1,0 +1,26 @@
+{
+  "task": "coding-router-notebook",
+  "label": "notebook (llm_RAG.ipynb)",
+  "started": "2026-10-10T22:44:57",
+  "finished": "2026-10-10T22:52:12",
+  "ollama_version": "0.30.11",
+  "host": "http://127.0.0.1:11434",
+  "models": {
+    "gemma3:4b": "68ceab7e468a31c988b44d5a4984a0e21f58c4f7158c6ce29c1804babac38df7",
+    "qwen2.5-coder:14b": "9ec8897f747e246e970bc5cfdda85d22f1123dc2e3d34978a010a75968716849",
+    "qwen2.5:14b": "7cdf5a0187d5c58cc5d369b255592f7841d1c4696d45a8c8a9489440385b22f6",
+    "llama3.1:8b": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e"
+  },
+  "options": {
+    "temperature": 0,
+    "seed": 42,
+    "num_predict": 256
+  },
+  "reps": 3,
+  "render": "langchain-dict-nested",
+  "prompt_sha256": "2241483a459c1737b34dccac72be2134b1f8ec84dbc4751e8ccdf8e46fb6fe2d",
+  "dataset": "eval/tasks/coding-router/dataset.tsv",
+  "dataset_sha256": "f9845d928c2f105392672cae0c8a3572daaa02c6b85b5d2b8a58878cbc37d45a",
+  "dataset_rows": 53,
+  "repo_commit": "825c9b2"
+}

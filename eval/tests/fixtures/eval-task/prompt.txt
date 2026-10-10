@@ -1,0 +1,5 @@
+# source: fixture testowa
+# render: langchain-dict
+
+Route this: {question}
+Decision:

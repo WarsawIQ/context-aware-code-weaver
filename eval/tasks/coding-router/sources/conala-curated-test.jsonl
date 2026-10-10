@@ -1,0 +1,500 @@
+{"question_id": "15080500", "intent": "How can I send a signal from a python program?"}
+{"question_id": "3283984", "intent": "Decode Hex String in Python 3"}
+{"question_id": "3844801", "intent": "check if all elements in a list are identical"}
+{"question_id": "4302166", "intent": "Format string dynamically"}
+{"question_id": "7555335", "intent": "How to convert a string from CP-1251 to UTF-8?"}
+{"question_id": "2544710", "intent": "How I can get rid of None values in dictionary?"}
+{"question_id": "2544710", "intent": "How I can get rid of None values in dictionary?"}
+{"question_id": "14971373", "intent": "Python: how to get the final output of multiple system commands?"}
+{"question_id": "6726636", "intent": "splitting and concatenating a string"}
+{"question_id": "18079563", "intent": "Finding the intersection between two series in Pandas"}
+{"question_id": "8315209", "intent": "Sending http headers with python"}
+{"question_id": "26153795", "intent": "Python -Remove Time from Datetime String"}
+{"question_id": "172439", "intent": "How do I split a multi-line string into multiple lines?"}
+{"question_id": "172439", "intent": "How do I split a multi-line string into multiple lines?"}
+{"question_id": "13954222", "intent": "How to join mixed list (array) (with integers in it) in Python?"}
+{"question_id": "5123839", "intent": "Fastest way to get the first object from a queryset in django?"}
+{"question_id": "13567345", "intent": "How to calculate the sum of all columns of a 2D numpy array (efficiently)"}
+{"question_id": "29784889", "intent": "Python, how to enable all warnings?"}
+{"question_id": "13550423", "intent": "Python printing without commas"}
+{"question_id": "25651990", "intent": "OSError: [WinError 193] %1 is not a valid Win32 application"}
+{"question_id": "698223", "intent": "How can I parse a time string containing milliseconds in it with python?"}
+{"question_id": "6633523", "intent": "How can I convert a string with dot and comma into a float number in Python"}
+{"question_id": "6633523", "intent": "How can I convert a string with dot and comma into a float number in Python"}
+{"question_id": "3108285", "intent": "In Python script, how do I set PYTHONPATH?"}
+{"question_id": "2195340", "intent": "Determining the unmatched portion of a string using a regex in Python"}
+{"question_id": "17977584", "intent": "How to read data from Excel and write it to text file line by line?"}
+{"question_id": "22676", "intent": "download a file over HTTP"}
+{"question_id": "22676", "intent": "download a file over HTTP"}
+{"question_id": "22676", "intent": "download a file over HTTP"}
+{"question_id": "22676", "intent": "download a file over HTTP"}
+{"question_id": "22676", "intent": "download a file over HTTP"}
+{"question_id": "15405636", "intent": "Python's argparse to show program's version with prog and version string formatting"}
+{"question_id": "17665809", "intent": "Remove key from dictionary in Python returning new dictionary"}
+{"question_id": "41861705", "intent": "Merging two pandas dataframes"}
+{"question_id": "10697757", "intent": "Python regular expression split() string"}
+{"question_id": "5404068", "intent": "How to read keyboard-input?"}
+{"question_id": "16344756", "intent": "Auto reloading python Flask app upon code changes"}
+{"question_id": "40133826", "intent": "Python save list and read data from file"}
+{"question_id": "4490961", "intent": "Numpy: Multiplying a matrix with a 3d tensor -- Suggestion"}
+{"question_id": "2173087", "intent": "How to create nested lists in python?"}
+{"question_id": "6266727", "intent": "Python: Cut off the last word of a sentence?"}
+{"question_id": "30385151", "intent": "Numpy convert scalars to arrays"}
+{"question_id": "15856127", "intent": "Finding the sum of a nested list of ints"}
+{"question_id": "1592158", "intent": "Convert hex to float"}
+{"question_id": "5010536", "intent": "Python: Perform an operation on each dictionary value"}
+{"question_id": "13745648", "intent": "Running bash script from within python"}
+{"question_id": "44778", "intent": "How would you make a comma-separated string from a list?"}
+{"question_id": "44778", "intent": "How would you make a comma-separated string from a list?"}
+{"question_id": "7286365", "intent": "Print a list in reverse order with range()?"}
+{"question_id": "18454570", "intent": "How can i subtract two strings in python?"}
+{"question_id": "4357787", "intent": "python reverse tokens in a string"}
+{"question_id": "21787496", "intent": "converting epoch time with milliseconds to datetime"}
+{"question_id": "21787496", "intent": "converting epoch time with milliseconds to datetime"}
+{"question_id": "20573459", "intent": "Getting the date of 7 days ago from current date in python"}
+{"question_id": "15352457", "intent": "How can I sum a column of a list?"}
+{"question_id": "15352457", "intent": "How can I sum a column of a list?"}
+{"question_id": "23164058", "intent": "How to encode text to base64 in python"}
+{"question_id": "11533274", "intent": "How can I combine dictionaries with the same keys in python?"}
+{"question_id": "11533274", "intent": "How can I combine dictionaries with the same keys in python?"}
+{"question_id": "14026704", "intent": "How do I get the url parameter in a Flask view"}
+{"question_id": "11236006", "intent": "Identify duplicate values in a list in Python"}
+{"question_id": "2354166", "intent": "How do you modify sys.path in Google App Engine (Python)?"}
+{"question_id": "2354166", "intent": "How do you modify sys.path in Google App Engine (Python)?"}
+{"question_id": "20211942", "intent": "Insert Null into SQLite3 in Python"}
+{"question_id": "406121", "intent": "Flattening a shallow list in Python"}
+{"question_id": "4741537", "intent": "Append elements of a set to a list in Python"}
+{"question_id": "4741537", "intent": "Append elements of a set to a list in Python"}
+{"question_id": "31247198", "intent": "Python, Pandas : write content of DataFrame into text File"}
+{"question_id": "31247198", "intent": "Python, Pandas : write content of DataFrame into text File"}
+{"question_id": "15851568", "intent": "how to get the last part of a string before a certain character?"}
+{"question_id": "15851568", "intent": "how to get the last part of a string before a certain character?"}
+{"question_id": "17438096", "intent": "FTP upload files Python"}
+{"question_id": "15049182", "intent": "Write value to hidden element with selenium python script"}
+{"question_id": "28742436", "intent": "Combining two numpy arrays to form an array with the largest value from each array"}
+{"question_id": "34280147", "intent": "How to print an entire list while not starting by the first item"}
+{"question_id": "11801309", "intent": "loop over files"}
+{"question_id": "11801309", "intent": "loop over files"}
+{"question_id": "4172131", "intent": "Create random list of integers in Python"}
+{"question_id": "6677332", "intent": "Using %f with strftime() in Python to get microseconds"}
+{"question_id": "852055", "intent": "Build a GQL query (for Google App Engine) that has a condition on ReferenceProperty"}
+{"question_id": "15325182", "intent": "How to filter rows in pandas by regex"}
+{"question_id": "583557", "intent": "What is the best way to print a table with delimiters in Python"}
+{"question_id": "38535931", "intent": "Pandas: Delete rows based on multiple columns values"}
+{"question_id": "13945749", "intent": "String Formatting in Python 3"}
+{"question_id": "13945749", "intent": "String Formatting in Python 3"}
+{"question_id": "13945749", "intent": "String Formatting in Python 3"}
+{"question_id": "18524642", "intent": "Convert list of lists to list of integers"}
+{"question_id": "18524642", "intent": "Convert list of lists to list of integers"}
+{"question_id": "18524642", "intent": "Convert list of lists to list of integers"}
+{"question_id": "7138686", "intent": "How to write a list to a file with newlines in Python3"}
+{"question_id": "1866343", "intent": "Removing an element from a list based on a predicate"}
+{"question_id": "17238587", "intent": "python regular expression to remove repeated words"}
+{"question_id": "26053849", "intent": "Counting non zero values in each column of a dataframe in python"}
+{"question_id": "15534223", "intent": "Python match string if it does not start with X"}
+{"question_id": "5453026", "intent": "String to list in Python"}
+{"question_id": "18168684", "intent": "Parsing XML in Python with regex"}
+{"question_id": "4914277", "intent": "How to empty a file using Python"}
+{"question_id": "19068269", "intent": "how to convert a string date into datetime format in python?"}
+{"question_id": "20683167", "intent": "What's the fastest way to locate a list element within a list in python?"}
+{"question_id": "30693804", "intent": "Python: trying to lower a string and remove non-alphanumeric characters aside from space"}
+{"question_id": "30693804", "intent": "Python: trying to lower a string and remove non-alphanumeric characters aside from space"}
+{"question_id": "17138464", "intent": "Subscripting text in matplotlib labels"}
+{"question_id": "17138464", "intent": "Subscripting text in matplotlib labels"}
+{"question_id": "9138112", "intent": "Looping over a list in Python"}
+{"question_id": "1807026", "intent": "Initialize a list of objects in Python"}
+{"question_id": "1807026", "intent": "Initialize a list of objects in Python"}
+{"question_id": "19664253", "intent": "selenium how to get the content of href within some targeted class"}
+{"question_id": "13793321", "intent": "Joining Table/DataFrames with common Column in Python"}
+{"question_id": "3367288", "intent": "insert variable values into a string in python"}
+{"question_id": "3475251", "intent": "Split a string by a delimiter in python"}
+{"question_id": "273192", "intent": "check if a directory exists and create it if necessary"}
+{"question_id": "273192", "intent": "check if a directory exists and create it if necessary"}
+{"question_id": "273192", "intent": "check if a directory exists and create it if necessary"}
+{"question_id": "273192", "intent": "check if a directory exists and create it if necessary"}
+{"question_id": "18785032", "intent": "Replace a substring when it is a separate word"}
+{"question_id": "1450897", "intent": "Python: removing characters except digits from string"}
+{"question_id": "1450897", "intent": "Python: removing characters except digits from string"}
+{"question_id": "14435268", "intent": "How to access a tag called \"name\" in BeautifulSoup"}
+{"question_id": "4928274", "intent": "Iterate through PyMongo Cursor as key-value pair"}
+{"question_id": "20180210", "intent": "Python how to combine two matrices in numpy"}
+{"question_id": "20180210", "intent": "Python how to combine two matrices in numpy"}
+{"question_id": "2011048", "intent": "how to check the character count of a file in python"}
+{"question_id": "2600191", "intent": "count the occurrences of a list item"}
+{"question_id": "2600191", "intent": "count the occurrences of a list item"}
+{"question_id": "2600191", "intent": "count the occurrences of a list item"}
+{"question_id": "2600191", "intent": "count the occurrences of a list item"}
+{"question_id": "2600191", "intent": "count the occurrences of a list item"}
+{"question_id": "12842997", "intent": "How to copy a file using python?"}
+{"question_id": "1555968", "intent": "Efficient way to find the largest key in a dictionary with non-zero value"}
+{"question_id": "1555968", "intent": "Efficient way to find the largest key in a dictionary with non-zero value"}
+{"question_id": "1555968", "intent": "Efficient way to find the largest key in a dictionary with non-zero value"}
+{"question_id": "17021863", "intent": "Re-read an open file Python"}
+{"question_id": "38152389", "intent": "Coalesce values from 2 columns into a single column in a pandas dataframe"}
+{"question_id": "4175686", "intent": "python: Is this a wrong way to remove an element from a dict?"}
+{"question_id": "5871168", "intent": "How can I subtract or add 100 years to a datetime field in the database in Django?"}
+{"question_id": "11574195", "intent": "How to merge multiple lists into one list in python?"}
+{"question_id": "587647", "intent": "How to increment a value with leading zeroes?"}
+{"question_id": "17315881", "intent": "How can I check if a Pandas dataframe's index is sorted"}
+{"question_id": "16296643", "intent": "Convert tuple to list"}
+{"question_id": "16296643", "intent": "Convert tuple to list"}
+{"question_id": "16296643", "intent": "Convert tuple to list and back"}
+{"question_id": "3880399", "intent": "how to send the output of pprint module to a log file"}
+{"question_id": "21800169", "intent": "Python Pandas: Get index of rows which column matches certain value"}
+{"question_id": "21800169", "intent": "Python Pandas: Get index of rows which column matches certain value"}
+{"question_id": "21800169", "intent": "Python Pandas: Get index of rows which column matches certain value"}
+{"question_id": "21800169", "intent": "Python Pandas: Get index of rows which column matches certain value"}
+{"question_id": "299446", "intent": "How do I change directory back to my original working directory with Python?"}
+{"question_id": "14695134", "intent": "How to insert strings with quotes and newlines into sqlite db with Python?"}
+{"question_id": "24242433", "intent": "Python - how to convert a \"raw\" string into a normal string"}
+{"question_id": "24242433", "intent": "Python - how to convert a \"raw\" string into a normal string"}
+{"question_id": "24242433", "intent": "Python - how to convert a \"raw\" string into a normal string"}
+{"question_id": "22882922", "intent": "Splitting a string with repeated characters into a list using regex"}
+{"question_id": "4143502", "intent": "How to do a scatter plot with empty circles in Python?"}
+{"question_id": "4143502", "intent": "How to do a scatter plot with empty circles in Python?"}
+{"question_id": "32063985", "intent": "Deleting a div with a particlular class using BeautifulSoup"}
+{"question_id": "27975069", "intent": "How to filter rows containing a string pattern from a Pandas dataframe"}
+{"question_id": "20461165", "intent": "How to convert pandas index in a dataframe to a column?"}
+{"question_id": "20461165", "intent": "How to convert pandas index in a dataframe to a column?"}
+{"question_id": "20461165", "intent": "How to convert pandas index in a dataframe to a column?"}
+{"question_id": "4685571", "intent": "Generic reverse of list items in Python"}
+{"question_id": "17960441", "intent": "in Numpy, how to zip two 2-D arrays?"}
+{"question_id": "17960441", "intent": "in Numpy, how to zip two 2-D arrays?"}
+{"question_id": "438684", "intent": "How to convert a list of longs into a comma separated string in python"}
+{"question_id": "8519922", "intent": "Posting raw data with Python"}
+{"question_id": "26443308", "intent": "Find last occurrence of character"}
+{"question_id": "22365172", "intent": "Ending with a for loop in python"}
+{"question_id": "12300912", "intent": "transpose dictionary (extract all the values for one key from a list of dictionaries)"}
+{"question_id": "678236", "intent": "How to get the filename without the extension from a path in Python?"}
+{"question_id": "2597166", "intent": "Make dictionary from list with python"}
+{"question_id": "7895449", "intent": "Merging a list of lists"}
+{"question_id": "31617845", "intent": "How to select rows in a DataFrame between two values, in Python Pandas?"}
+{"question_id": "25698710", "intent": "Replace all occurrences of a string in a pandas dataframe (Python)"}
+{"question_id": "25698710", "intent": "Replace all occurrences of a string in a pandas dataframe (Python)"}
+{"question_id": "41923858", "intent": "Mapping a string into a list of pairs"}
+{"question_id": "41923858", "intent": "Mapping a string into a list of pairs"}
+{"question_id": "9760588", "intent": "How do you extract a url from a string using python?"}
+{"question_id": "9760588", "intent": "How do you extract a url from a string using python?"}
+{"question_id": "5843518", "intent": "Remove all special characters, punctuation and spaces from string"}
+{"question_id": "36674519", "intent": "How to get a daterange of the 2nd Fridays of each month?"}
+{"question_id": "508657", "intent": "Multidimensional array in Python"}
+{"question_id": "1007481", "intent": "How do I replace whitespaces with underscore and vice versa?"}
+{"question_id": "51520", "intent": "How to get an absolute file path in Python"}
+{"question_id": "1249786", "intent": "Is there a string-collapse library function in python?"}
+{"question_id": "4444923", "intent": "Get Filename Without Extension in Python"}
+{"question_id": "13728486", "intent": "How to sum elements in functional way"}
+{"question_id": "9743134", "intent": "Python Regex Split Keeps Split Pattern Characters"}
+{"question_id": "20546419", "intent": "Shuffle columns of an array with Numpy"}
+{"question_id": "32675861", "intent": "Copy all values in a column to a new column in a pandas dataframe"}
+{"question_id": "14227561", "intent": "Find a value within nested json dictionary in python"}
+{"question_id": "14858916", "intent": "True for all characters of a string"}
+{"question_id": "574236", "intent": "How to determine number of files on a drive with Python?"}
+{"question_id": "7011291", "intent": "how to get a single result from a SQLite query in python?"}
+{"question_id": "6378889", "intent": "How to convert a string list into an integer in python"}
+{"question_id": "6378889", "intent": "How to convert a string list into an integer in python"}
+{"question_id": "5212870", "intent": "Sorting a Python list by two criteria"}
+{"question_id": "403421", "intent": "How to sort a list of objects , based on an attribute of the objects?"}
+{"question_id": "403421", "intent": "How to sort a list of objects , based on an attribute of the objects?"}
+{"question_id": "403421", "intent": "How to sort a list of objects , based on an attribute of the objects?"}
+{"question_id": "19601086", "intent": "Click a href button with selenium and python?"}
+{"question_id": "19601086", "intent": "Click a href button with selenium and python?"}
+{"question_id": "19601086", "intent": "Click a href button with selenium and python?"}
+{"question_id": "3944876", "intent": "Casting an int to a string in Python"}
+{"question_id": "40903174", "intent": "Sorting data in DataFrame Pandas"}
+{"question_id": "4454298", "intent": "Prepend a line to an existing file in Python"}
+{"question_id": "19729928", "intent": "Python sort a List by length of value in tuple"}
+{"question_id": "31371879", "intent": "Split by suffix with Python regular expression"}
+{"question_id": "9012008", "intent": "python's re: return True if regex contains in the string"}
+{"question_id": "7961363", "intent": "Removing duplicates in lists"}
+{"question_id": "7961363", "intent": "Removing duplicates in lists"}
+{"question_id": "7961363", "intent": "Removing duplicates in lists"}
+{"question_id": "5183533", "intent": "How to make List from Numpy Matrix in Python"}
+{"question_id": "5183533", "intent": "How to make List from Numpy Matrix in Python"}
+{"question_id": "5999747", "intent": "Beautifulsoup - nextSibling"}
+{"question_id": "4284648", "intent": "Converting lists of tuples to strings Python"}
+{"question_id": "4284648", "intent": "Converting lists of tuples to strings Python"}
+{"question_id": "26809954", "intent": "Splinter or Selenium: Can we get current html page after clicking a button?"}
+{"question_id": "29696641", "intent": "Find a specific pattern (regular expression) in a list of strings (Python)"}
+{"question_id": "15315452", "intent": "Selecting with complex criteria from pandas.DataFrame"}
+{"question_id": "4642501", "intent": "How to sort dictionaries by keys in Python"}
+{"question_id": "4642501", "intent": "How to sort dictionaries by keys in Python"}
+{"question_id": "4642501", "intent": "How to sort dictionaries by keys in Python"}
+{"question_id": "642154", "intent": "convert strings into integers"}
+{"question_id": "642154", "intent": "convert strings into integers"}
+{"question_id": "642154", "intent": "convert strings into integers"}
+{"question_id": "3777301", "intent": "How to call a shell script from python code?"}
+{"question_id": "3777301", "intent": "How to call a shell script from python code?"}
+{"question_id": "7946798", "intent": "Interleaving two lists in Python"}
+{"question_id": "8908287", "intent": "Base64 encoding in Python 3"}
+{"question_id": "8908287", "intent": "Base64 encoding in Python 3"}
+{"question_id": "7856296", "intent": "Parsing CSV / tab-delimited txt file with Python"}
+{"question_id": "9035479", "intent": "Python - Access object attributes as in a dictionary"}
+{"question_id": "5558418", "intent": "list of dicts to/from dict of lists"}
+{"question_id": "638048", "intent": "How do I sum the first value in each tuple in a list of tuples in Python?"}
+{"question_id": "14950260", "intent": "Convert unicode string dictionary into dictionary in python"}
+{"question_id": "11416772", "intent": "Find all words in a string that start with the $ sign in Python"}
+{"question_id": "11331982", "intent": "How to remove any URL within a string in Python"}
+{"question_id": "34945274", "intent": "How to find all elements in a numpy 2-dimensional array that match a certain list?"}
+{"question_id": "15819980", "intent": "Calculate mean across dimension in a 2D array"}
+{"question_id": "19894365", "intent": "Running R script from python"}
+{"question_id": "19894365", "intent": "Running R script from python"}
+{"question_id": "15907200", "intent": "How to add a header to a csv file in Python?"}
+{"question_id": "33058590", "intent": "Pandas Dataframe: Replacing NaN with row average"}
+{"question_id": "12400256", "intent": "Python: Converting Epoch time into the datetime"}
+{"question_id": "1269217", "intent": "Calling a base class's classmethod in Python"}
+{"question_id": "23359886", "intent": "selecting rows in numpy ndarray based on the value of two columns"}
+{"question_id": "4383082", "intent": "Python regex separate space-delimited words into a list"}
+{"question_id": "14637696", "intent": "Length of longest word in a list"}
+{"question_id": "3933478", "intent": "accessing python dictionary"}
+{"question_id": "39112645", "intent": "Save line in file to list"}
+{"question_id": "1031851", "intent": "Python: Best Way to Exchange Keys with Values in a Dictionary?"}
+{"question_id": "8577137", "intent": "creating a tmp file in python"}
+{"question_id": "17926273", "intent": "How to count distinct values in a column of a pandas group by object?"}
+{"question_id": "3735814", "intent": "Check for a key pattern in a dictionary in python"}
+{"question_id": "3735814", "intent": "Check for a key pattern in a dictionary in python"}
+{"question_id": "26097916", "intent": "python, best way to convert a pandas series into a pandas dataframe"}
+{"question_id": "4048964", "intent": "printing tab-separated values of a list"}
+{"question_id": "3182716", "intent": "Python unicode string with UTF-8?"}
+{"question_id": "3182716", "intent": "Python unicode string with UTF-8?"}
+{"question_id": "1405602", "intent": "How to adjust the quality of a resized image in Python Imaging Library?"}
+{"question_id": "35622945", "intent": "Regex, find pattern only in middle of string"}
+{"question_id": "5306756", "intent": "how to show Percentage in python"}
+{"question_id": "2878084", "intent": "Sort a list of dicts by dict values"}
+{"question_id": "2878084", "intent": "Sort a list of dicts by dict values"}
+{"question_id": "2878084", "intent": "Sort a list of dicts by dict values"}
+{"question_id": "9323159", "intent": "finding n largest differences between two lists"}
+{"question_id": "29877663", "intent": "Finding multiple attributes within the span tag in Python"}
+{"question_id": "24189150", "intent": "Pandas writing dataframe to other postgresql schema"}
+{"question_id": "30766151", "intent": "Regular Expression to find brackets in a string"}
+{"question_id": "1143379", "intent": "Removing duplicates from list of lists in Python"}
+{"question_id": "12330522", "intent": "Reading a file without newlines"}
+{"question_id": "364621", "intent": "get item's position in a list"}
+{"question_id": "364621", "intent": "get item's position in a list"}
+{"question_id": "364621", "intent": "get item's position in a list"}
+{"question_id": "364621", "intent": "get item's position in a list"}
+{"question_id": "364621", "intent": "get item's position in a list"}
+{"question_id": "364621", "intent": "get item's position in a list"}
+{"question_id": "364621", "intent": "get item's position in a list"}
+{"question_id": "13145368", "intent": "Find the maximum value in a list of tuples in Python"}
+{"question_id": "13145368", "intent": "Find the maximum value in a list of tuples in Python"}
+{"question_id": "2689189", "intent": "How do I simulate a progress counter in a command line application in Python?"}
+{"question_id": "12485244", "intent": "Tuple conversion to a string"}
+{"question_id": "755857", "intent": "Default value for field in Django model"}
+{"question_id": "16193578", "intent": "How do I perform secondary sorting in python?"}
+{"question_id": "16193578", "intent": "How do I perform secondary sorting in python?"}
+{"question_id": "16041405", "intent": "Python: convert list to generator"}
+{"question_id": "18837607", "intent": "Remove multiple items from list in Python"}
+{"question_id": "4710067", "intent": "Deleting a specific line in a file (python)"}
+{"question_id": "7373219", "intent": "Attribute getters in python"}
+{"question_id": "8171751", "intent": "How do I convert tuple of tuples to list in one line (pythonic)?"}
+{"question_id": "8171751", "intent": "How do I convert tuple of tuples to list in one line (pythonic)?"}
+{"question_id": "28986489", "intent": "Python Pandas: How to replace a characters in a column of a dataframe?"}
+{"question_id": "19339", "intent": "inverse of zip"}
+{"question_id": "19339", "intent": "inverse of zip"}
+{"question_id": "19339", "intent": "inverse of zip"}
+{"question_id": "19339", "intent": "inverse of zip"}
+{"question_id": "19339", "intent": "inverse of zip"}
+{"question_id": "19339", "intent": "inverse of zip"}
+{"question_id": "1960516", "intent": "Python JSON serialize a Decimal object"}
+{"question_id": "1024847", "intent": "Add key to a dictionary"}
+{"question_id": "1024847", "intent": "Add key to a dictionary"}
+{"question_id": "1024847", "intent": "Add key to a dictionary"}
+{"question_id": "1024847", "intent": "Add key to a dictionary"}
+{"question_id": "35837346", "intent": "Is there a one line code to find maximal value in a matrix?"}
+{"question_id": "20457038", "intent": "Python - how to round down to 2 decimals"}
+{"question_id": "2890896", "intent": "Extract IP address from an html string (python)"}
+{"question_id": "29836836", "intent": "How do I filter a pandas DataFrame based on value counts?"}
+{"question_id": "2545397", "intent": "Converting a string into a list in Python"}
+{"question_id": "2545397", "intent": "Converting a string into a list in Python"}
+{"question_id": "35420052", "intent": "Adding Colorbar to a Spectrogram"}
+{"question_id": "29903025", "intent": "Count most frequent 100 words from sentences in Dataframe Pandas"}
+{"question_id": "16330838", "intent": "Python split a string using regex"}
+{"question_id": "7378180", "intent": "Generate all subsets of size k (containing k elements) in Python"}
+{"question_id": "4530069", "intent": "Python: How to get a value of datetime.today() that is \"timezone aware\"?"}
+{"question_id": "4842956", "intent": "Python: How to remove empty lists from a list?"}
+{"question_id": "4842956", "intent": "Python: How to remove empty lists from a list?"}
+{"question_id": "9262278", "intent": "Django view returning json without using template"}
+{"question_id": "17284947", "intent": "regex to get all text outside of brackets"}
+{"question_id": "17284947", "intent": "regex to get all text outside of brackets"}
+{"question_id": "14182339", "intent": "Matching multiple regex patterns with the alternation operator?"}
+{"question_id": "14182339", "intent": "Matching multiple regex patterns with the alternation operator?"}
+{"question_id": "14182339", "intent": "Matching multiple regex patterns with the alternation operator?"}
+{"question_id": "7126916", "intent": "Perform a string operation for every element in a Python list"}
+{"question_id": "3595685", "intent": "start python script as background process from within a python script"}
+{"question_id": "18453566", "intent": "Python dictionary: Get list of values for list of keys"}
+{"question_id": "12692135", "intent": "Create dictionary from lists of keys and multiple values"}
+{"question_id": "14401047", "intent": "Numpy - Averaging multiple columns of a 2D array"}
+{"question_id": "18886596", "intent": "Replace all quotes in a string with escaped quotes?"}
+{"question_id": "5932059", "intent": "Partitioning a string in Python by a regular expression"}
+{"question_id": "9938130", "intent": "plotting stacked barplots on a panda data frame"}
+{"question_id": "35945473", "intent": "How to reverse a dictionary in Python?"}
+{"question_id": "30729735", "intent": "finding index of multiple items in a list"}
+{"question_id": "1303243", "intent": "find out if a Python object is a string"}
+{"question_id": "1303243", "intent": "find out if a Python object is a string"}
+{"question_id": "1303243", "intent": "find out if a Python object is a string"}
+{"question_id": "1303243", "intent": "find out if a Python object is a string"}
+{"question_id": "1303243", "intent": "find out if a Python object is a string"}
+{"question_id": "8177079", "intent": "take the content of a list and append it to another list"}
+{"question_id": "8177079", "intent": "take the content of a list and append it to another list"}
+{"question_id": "8177079", "intent": "take the content of a list and append it to another list"}
+{"question_id": "8177079", "intent": "take the content of a list and append it to another list"}
+{"question_id": "4126227", "intent": "Appending tuples to lists"}
+{"question_id": "34902378", "intent": "Where do I get a SECRET_KEY for Flask?"}
+{"question_id": "22799300", "intent": "How to unpack a Series of tuples in Pandas?"}
+{"question_id": "1762484", "intent": "How to find the position of an element in a list , in Python?"}
+{"question_id": "3464359", "intent": "Is it possible to wrap the text of xticks in matplotlib in python?"}
+{"question_id": "875968", "intent": "How to remove symbols from a string with Python?"}
+{"question_id": "31258561", "intent": "get current directory - Python"}
+{"question_id": "34750084", "intent": "Regex and Octal Characters"}
+{"question_id": "13209288", "intent": "Python split string based on regex"}
+{"question_id": "13209288", "intent": "Python split string based on regex"}
+{"question_id": "24642040", "intent": "Using Python Requests to send file and JSON in single request"}
+{"question_id": "4290716", "intent": "How to write bytes to a file in Python 3 without knowing the encoding?"}
+{"question_id": "33078554", "intent": "Mapping dictionary value to list"}
+{"question_id": "15247628", "intent": "How to find duplicate names using pandas?"}
+{"question_id": "783897", "intent": "Truncating floats in Python"}
+{"question_id": "22859493", "intent": "Order list by date (String and datetime)"}
+{"question_id": "29394552", "intent": "Move radial tick labels on a polar plot in matplotlib"}
+{"question_id": "3320406", "intent": "How to check if a path is absolute path or relative path in cross platform way with Python?"}
+{"question_id": "2212433", "intent": "Counting the Number of keywords in a dictionary in python"}
+{"question_id": "2212433", "intent": "Counting the Number of keywords in a dictionary in python"}
+{"question_id": "20067636", "intent": "Pandas dataframe get first row of each group"}
+{"question_id": "40924332", "intent": "Splitting a list in a Pandas cell into multiple columns"}
+{"question_id": "30759776", "intent": "Extracting specific src attributes from script tags"}
+{"question_id": "25388796", "intent": "Most efficient way to convert items of a list to int and sum them up"}
+{"question_id": "804995", "intent": "How to use subprocess when multiple arguments contain spaces?"}
+{"question_id": "26441253", "intent": "how to reverse a priority queue in Python without using classes?"}
+{"question_id": "18897261", "intent": "pandas plot dataframe barplot with colors by category"}
+{"question_id": "373194", "intent": "Python regex for MD5 hash"}
+{"question_id": "518021", "intent": "Getting the length of an array"}
+{"question_id": "518021", "intent": "Getting the length of an array"}
+{"question_id": "518021", "intent": "Getting the length of an array"}
+{"question_id": "518021", "intent": "Getting the length of an array"}
+{"question_id": "518021", "intent": "Getting the length of an array"}
+{"question_id": "40452956", "intent": "remove escape character from string"}
+{"question_id": "8687018", "intent": "Python string replace two things at once?"}
+{"question_id": "303200", "intent": "How do I remove/delete a folder that is not empty with Python?"}
+{"question_id": "13740672", "intent": "in pandas how can I groupby weekday() for a datetime column?"}
+{"question_id": "20950650", "intent": "How to sort Counter by value? - python"}
+{"question_id": "20950650", "intent": "How to sort Counter by value? - python"}
+{"question_id": "9775297", "intent": "Append a NumPy array to a NumPy array"}
+{"question_id": "21887754", "intent": "numpy concatenate two arrays vertically"}
+{"question_id": "21887754", "intent": "numpy concatenate two arrays vertically"}
+{"question_id": "21887754", "intent": "numpy concatenate two arrays vertically"}
+{"question_id": "21887754", "intent": "numpy concatenate two arrays vertically"}
+{"question_id": "2805231", "intent": "How can I do DNS lookups in Python, including referring to /etc/hosts?"}
+{"question_id": "17552997", "intent": "How to update a subset of a MultiIndexed pandas DataFrame"}
+{"question_id": "4356842", "intent": "How do I return a 401 Unauthorized in Django?"}
+{"question_id": "13598363", "intent": "How to dynamically select template directory to be used in flask?"}
+{"question_id": "1849375", "intent": "How do I INSERT INTO t1 (SELECT * FROM t2) in SQLAlchemy?"}
+{"question_id": "3398589", "intent": "Sorting a list of lists in Python"}
+{"question_id": "3398589", "intent": "Sorting a list of lists in Python"}
+{"question_id": "3398589", "intent": "Sorting a list of lists in Python"}
+{"question_id": "10960463", "intent": "Non-ASCII characters in Matplotlib"}
+{"question_id": "20576618", "intent": "Pandas datetime column to ordinal"}
+{"question_id": "7263824", "intent": "Get HTML Source of WebElement in Selenium WebDriver using Python"}
+{"question_id": "31793195", "intent": "Most efficient way to get the integer index of a key in pandas"}
+{"question_id": "7574841", "intent": "open a terminal from python"}
+{"question_id": "10487278", "intent": "Python - How to declare and add items to an array?"}
+{"question_id": "10487278", "intent": "Python - How to declare and add items to an array?"}
+{"question_id": "10487278", "intent": "Python - How to declare and add items to an array?"}
+{"question_id": "10155684", "intent": "Add entry to list and remove first one in Python"}
+{"question_id": "3519125", "intent": "Converting a hex-string representation to actual bytes in Python"}
+{"question_id": "40144769", "intent": "How to select the last column of dataframe"}
+{"question_id": "30787901", "intent": "How to get a value from a Pandas DataFrame and not the index and object type"}
+{"question_id": "18730044", "intent": "Converting two lists into a matrix"}
+{"question_id": "402504", "intent": "determine the variable type"}
+{"question_id": "402504", "intent": "determine the variable type"}
+{"question_id": "402504", "intent": "determine the variable type"}
+{"question_id": "402504", "intent": "determine the variable type"}
+{"question_id": "402504", "intent": "determine the variable type"}
+{"question_id": "402504", "intent": "determine the variable type"}
+{"question_id": "2300756", "intent": "Get the nth item of a generator in Python"}
+{"question_id": "20056548", "intent": "printing double quotes around a variable"}
+{"question_id": "8546245", "intent": "Python concat string with list"}
+{"question_id": "2276416", "intent": "Extending a list of lists in Python?"}
+{"question_id": "3925614", "intent": "How do you read a file into a list in Python?"}
+{"question_id": "22187233", "intent": "How to delete all instances of a character in a string in python?"}
+{"question_id": "22187233", "intent": "How to delete all instances of a character in a string in python?"}
+{"question_id": "22187233", "intent": "How to delete all instances of a character in a string in python?"}
+{"question_id": "22187233", "intent": "How to delete all instances of a character in a string in python?"}
+{"question_id": "13413590", "intent": "How to drop rows of Pandas DataFrame whose value in certain columns is NaN"}
+{"question_id": "598398", "intent": "Searching a list of objects in Python"}
+{"question_id": "10351772", "intent": "converting list of string to list of integer"}
+{"question_id": "10351772", "intent": "converting list of string to list of integer"}
+{"question_id": "493386", "intent": "print in Python without newline or space"}
+{"question_id": "6569528", "intent": "Python float to int conversion"}
+{"question_id": "3964681", "intent": "Find all files in directory with extension .txt"}
+{"question_id": "3964681", "intent": "Find all files in directory with extension .txt"}
+{"question_id": "3964681", "intent": "Find all files in directory with extension .txt"}
+{"question_id": "20865487", "intent": "Pandas (python) plot() without a legend"}
+{"question_id": "13368659", "intent": "loop through an IP address range"}
+{"question_id": "13368659", "intent": "loop through an IP address range"}
+{"question_id": "13368659", "intent": "loop through an IP address range"}
+{"question_id": "4065737", "intent": "Python/Numpy: Convert list of bools to unsigned int"}
+{"question_id": "8691311", "intent": "Python: How to write multiple strings in one line?"}
+{"question_id": "10632111", "intent": "How to flatten a hetrogenous list of list into a single list in python?"}
+{"question_id": "15392730", "intent": "In Python, is it possible to escape newline characters when printing a string?"}
+{"question_id": "1010961", "intent": "String Slicing Python"}
+{"question_id": "23855976", "intent": "Middle point of each pair of an numpy.array"}
+{"question_id": "23855976", "intent": "Middle point of each pair of an numpy.array"}
+{"question_id": "6375343", "intent": "Reading unicode elements into numpy array"}
+{"question_id": "1547733", "intent": "How to sort this list in Python?"}
+{"question_id": "1547733", "intent": "How to sort this list in Python?"}
+{"question_id": "37080612", "intent": "pandas DataFrame filter regex"}
+{"question_id": "14716342", "intent": "How do I find the string between two special characters?"}
+{"question_id": "18684076", "intent": "How to create a list of date string in 'yyyymmdd' format with Python Pandas?"}
+{"question_id": "1666700", "intent": "How to count the number of times something occurs inside a certain string?"}
+{"question_id": "18979111", "intent": "Sending post data from angularjs to django as JSON and not as raw content"}
+{"question_id": "7243750", "intent": "Download file from web in Python 3"}
+{"question_id": "743806", "intent": "Split string into a list"}
+{"question_id": "743806", "intent": "Split string into a list"}
+{"question_id": "743806", "intent": "Split string into a list"}
+{"question_id": "35044115", "intent": "Replacing characters in a regex"}
+{"question_id": "38388799", "intent": "Sort A list of Strings Based on certain field"}
+{"question_id": "9609375", "intent": "how to call multiple bash functions using | in python"}
+{"question_id": "37004138", "intent": "How to eliminate all strings from a list"}
+{"question_id": "37004138", "intent": "How to eliminate all strings from a list"}
+{"question_id": "72899", "intent": "How do I sort a list of dictionaries by values of the dictionary in Python?"}
+{"question_id": "72899", "intent": "How do I sort a list of dictionaries by values of the dictionary in Python?"}
+{"question_id": "72899", "intent": "How do I sort a list of dictionaries by values of the dictionary in Python?"}
+{"question_id": "72899", "intent": "How do I sort a list of dictionaries by values of the dictionary in Python?"}
+{"question_id": "36402748", "intent": "How to sort a Dataframe by the ocurrences in a column in Python (pandas)"}
+{"question_id": "29881993", "intent": "How can I access elements inside a list within a dictionary python?"}
+{"question_id": "34158494", "intent": "Variants of string concatenation?"}
+{"question_id": "7750557", "intent": "How do I get JSON data from RESTful service using Python?"}
+{"question_id": "12666897", "intent": "Removing an item from list matching a substring - Python"}
+{"question_id": "2984751", "intent": "Django filter by hour"}
+{"question_id": "5944630", "intent": "sort a list of dicts by x then by y"}
+{"question_id": "7852855", "intent": "How to convert a Python datetime object to seconds"}
+{"question_id": "2763750", "intent": "How to replace only part of the match with python re.sub"}
+{"question_id": "6420361", "intent": "How can I reload objects in my namespace in ipython"}
+{"question_id": "19546911", "intent": "How to get a 16bit Unsigned integer in python"}
+{"question_id": "9746522", "intent": "How can I use sum() function for a list in Python?"}
+{"question_id": "20107570", "intent": "Removing index column in pandas"}
+{"question_id": "8740353", "intent": "How to convert a string data to a JSON object in python?"}
+{"question_id": "5891453", "intent": "Is there a Python Library that contains a list of all the ascii characters?"}
+{"question_id": "18367007", "intent": "Python how to write to a binary file?"}
+{"question_id": "21805490", "intent": "Python Regex - checking for a capital letter with a lowercase after"}
+{"question_id": "16125229", "intent": "Last Key in Python Dictionary"}
+{"question_id": "6159900", "intent": "write line to file"}
+{"question_id": "6159900", "intent": "write line to file"}
+{"question_id": "6159900", "intent": "write line to file"}
+{"question_id": "19527279", "intent": "Python - Unicode to ASCII conversion"}
+{"question_id": "10668585", "intent": "How to get max value in django ORM"}
+{"question_id": "356483", "intent": "Python regex findall numbers and dots"}
+{"question_id": "356483", "intent": "Python regex findall numbers and dots"}
+{"question_id": "38081866", "intent": "Is there a way to run powershell code in python"}
+{"question_id": "7349646", "intent": "Sorting a dictionary of tuples in Python"}
+{"question_id": "2430539", "intent": "How do I get all the keys that are stored in the Cassandra column family with pycassa?"}
+{"question_id": "10607688", "intent": "how to create a file name with the current date & time in python?"}
+{"question_id": "30843103", "intent": "How to get the index of an integer from a list if the list contains a boolean?"}
+{"question_id": "4918425", "intent": "Subtract a value from every number in a list in Python?"}
+{"question_id": "701402", "intent": "Best way to choose a random file from a directory"}
+{"question_id": "17794266", "intent": "How to get the highest element in absolute value in a numpy matrix?"}
+{"question_id": "30551576", "intent": "Using Regular Expressions to extract specific urls in python"}
+{"question_id": "30551576", "intent": "Using Regular Expressions to extract specific urls in python"}
+{"question_id": "113534", "intent": "Is there a function in Python to split a string without ignoring the spaces?"}
+{"question_id": "5838735", "intent": "Open file in Python"}
+{"question_id": "36003967", "intent": "Sum of multiple list of lists index wise"}
+{"question_id": "7635237", "intent": "numpy: syntax/idiom to cast (n,) array to a (n, 1) array?"}

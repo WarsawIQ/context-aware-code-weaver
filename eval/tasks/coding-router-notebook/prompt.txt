@@ -1,0 +1,11 @@
+# source: ssheraliev/ml-dip-workshop llm_RAG.ipynb, commit 98288b7 (2025-05-04), komorka 14, router_prompt_template
+# render: langchain-dict-nested
+# dataset: ../coding-router/dataset.tsv
+# label: notebook (llm_RAG.ipynb)
+# note: routing_chain dokleja {"question": RunnablePassthrough()} drugi raz, wiec model dostaje {'question': {'question': ...}}; sprawdzone na langchain-core 0.3.59
+
+Given the user query, determine if it is best answered using internal knowledge about Python Style Guides (PEP8, Google Style Guide) and ML best practices (Google's Rules of ML), or if it requires a real-time web search for general programming topics, specific code examples not related to style/ML rules, current events, or very recent information.
+Respond only with the word 'vectorstore' or 'web_search'.
+
+User Query: {question}
+Decision:

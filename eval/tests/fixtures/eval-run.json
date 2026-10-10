@@ -1,0 +1,6 @@
+{"task": "coding-router", "started": "2026-10-10T20:00:00", "finished": "2026-10-10T20:05:00",
+ "ollama_version": "0.0.0-fake", "host": "http://127.0.0.1:11434",
+ "models": {"m-a:1b": "aaaaaaaaaaaa1111", "m-b:2b": "bbbbbbbbbbbb2222"},
+ "options": {"temperature": 0, "seed": 42, "num_predict": 256}, "reps": 2,
+ "render": "langchain-dict", "prompt_sha256": "p", "dataset_sha256": "d",
+ "dataset_rows": 4, "repo_commit": "abc1234"}

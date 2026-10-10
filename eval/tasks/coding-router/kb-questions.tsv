@@ -1,0 +1,21 @@
+id	section	question
+kb-01	PEP 8: Tabs or Spaces?	Should I indent Python code with tabs or spaces?
+kb-02	PEP 8: Maximum Line Length	What is the recommended maximum line length for Python code?
+kb-03	PEP 8: Should a Line Break Before or After a Binary Operator?	When a long arithmetic expression wraps, should the line break go before or after the operator?
+kb-04	PEP 8: Imports	In what order should I group the imports at the top of a Python file?
+kb-05	PEP 8: Whitespace in Expressions and Statements	Is it OK to put spaces just inside parentheses and brackets in Python?
+kb-06	PEP 8: Naming Conventions	How should constants be named in a Python module?
+kb-07	PEP 8: Inline Comments	Are inline comments recommended in Python, and how should they be formatted?
+kb-08	PEP 8: Programming Recommendations	Should I compare a value to None with == or with is?
+kb-09	Google Python Style Guide: 3.8 Comments and Docstrings	What sections should a function docstring have in Google-style Python code?
+kb-10	Google Python Style Guide: 3.16 Naming	Which kinds of variable names should I avoid in Python according to the Google Python Style Guide?
+kb-11	Google Python Style Guide: 2.2 Imports	Does the Google Python Style Guide allow importing individual classes and functions, or only modules?
+kb-12	Google Python Style Guide: 2.4 Exceptions	Is it acceptable to use a bare except clause to catch all errors?
+kb-13	Google Python Style Guide: 2.12 Default Argument Values	Can I use a mutable object, such as a list, as a default argument value?
+kb-14	Google Python Style Guide: 2.10 Lambda Functions	When is it fine to use a lambda instead of a regular function definition?
+kb-15	Google Python Style Guide: 3.10 Strings	Should I build strings with f-strings, the % operator or + concatenation?
+kb-16	Google Python Style Guide: 3.19 Type Annotations	Should public functions in my Python code have type annotations?
+kb-17	Rules of ML: Rule #1	Should I wait until I have a machine learning model before launching a new product feature?
+kb-18	Rules of ML: Rule #4	How complex should my first machine learning model be?
+kb-19	Rules of ML: Rule #29 and Rule #37	How do I avoid differences between the features used in training and the features used at serving time?
+kb-20	Rules of ML: Rule #14	Is it better to start with an interpretable model or with a complex one?
