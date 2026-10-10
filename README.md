@@ -19,9 +19,14 @@ The prototype was written by Sardor Sheraliev in 2025 as his BSc diploma
 project at Kozminski University, in the Diploma Workshop led by Karol
 Chlasta, PhD, who also supervised the thesis. The original repository is
 [ssheraliev/ml-dip-workshop](https://github.com/ssheraliev/ml-dip-workshop)
-and its README is kept in `docs/original-README.md`. The router evaluation
-and further development are done as part of WarsawIQ's research, and the
-project is now developed in the open.
+and its README is kept in `docs/original-README.md`. The design started
+from LangChain's example
+[Adaptive RAG using local LLMs](https://github.com/langchain-ai/langgraph/blob/main/examples/rag/langgraph_adaptive_rag_local.ipynb)
+(same embeddings, vector store, web search tool and routing labels), with a
+different knowledge base, a one-word router reply in place of JSON, and
+without the example's document grader and query rewriter. The router
+evaluation and further development are done as part of WarsawIQ's research,
+and the project is now developed in the open.
 
 ## Open to the community
 
@@ -125,6 +130,29 @@ requests to the knowledge base, against the prompt's own rule; only Qwen2.5
 - The style guides reach the model only on the knowledge-base path, so they
   do not influence code generated on the web path.
 - Only the router has been measured; the quality of the generated code has not.
+
+## Related projects
+
+Local, open-source coding assistants exist; none of them routes between a
+curated knowledge base of style guides and a web search, or measures that
+decision, which is what this repository adds.
+
+- [Continue](https://github.com/continuedev/continue) (Apache-2.0): VS Code
+  and JetBrains extension with local models through Ollama and context from
+  documentation and the repository.
+- [Tabby](https://github.com/TabbyML/tabby): self-hosted server that indexes
+  repositories and serves completion and chat.
+- [Twinny](https://github.com/twinnydotdev/twinny) (MIT): lightweight VS Code
+  extension for Ollama and OpenAI-compatible backends.
+- [PrivateGPT](https://github.com/zylon-ai/private-gpt) (Apache-2.0) and
+  [Open WebUI](https://github.com/open-webui/open-webui): general local RAG
+  applications with knowledge bases and web search.
+
+Research on retrieval for code generation: DocPrompting (Zhou et al., ICLR
+2023) retrieves documentation before generating; RepoCoder (Zhang et al.,
+EMNLP 2023) retrieves from the repository; CodeRAG-Bench (Wang et al.,
+Findings of NAACL 2025) finds that retrieval helps when the retrieved context
+is good, which retrievers often fail to provide.
 
 ## Licence
 
