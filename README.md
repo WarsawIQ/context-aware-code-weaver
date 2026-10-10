@@ -16,10 +16,12 @@ described in:
 > Submitted to MIDI 2026 (Machine Intelligence and Digital Interaction).
 
 The prototype was written by Sardor Sheraliev as his BSc diploma project at
-Kozminski University (2025, original repository:
+Kozminski University (2025), supervised by Karol Chlasta (original
+repository:
 [ssheraliev/ml-dip-workshop](https://github.com/ssheraliev/ml-dip-workshop),
-original README in `docs/original-README.md`). The evaluation and the further
-development are by Karol Chlasta (WarsawIQ).
+original README in `docs/original-README.md`). The router evaluation and the
+further development are led by the supervisor at WarsawIQ, and the project is
+shared here for development with the open-source community.
 
 ## What is in the repository
 
