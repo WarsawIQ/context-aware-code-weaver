@@ -15,9 +15,9 @@ described in:
 > Retrieval-Augmented Assistant for Python and Machine Learning Code.
 > Submitted to MIDI 2026 (Machine Intelligence and Digital Interaction).
 
-The prototype was written by Sardor Sheraliev as his BSc diploma project at
-Kozminski University in 2025, supervised by Karol Chlasta. The original
-repository is
+The prototype was written by Sardor Sheraliev in 2025 as his BSc diploma
+project at Kozminski University, in the Diploma Workshop led by Karol
+Chlasta, PhD, who also supervised the thesis. The original repository is
 [ssheraliev/ml-dip-workshop](https://github.com/ssheraliev/ml-dip-workshop)
 and its README is kept in `docs/original-README.md`. The router evaluation
 and further development are led by Karol Chlasta as part of WarsawIQ's
