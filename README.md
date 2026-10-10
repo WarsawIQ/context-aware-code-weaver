@@ -20,8 +20,8 @@ project at Kozminski University, in the Diploma Workshop led by Karol
 Chlasta, PhD, who also supervised the thesis. The original repository is
 [ssheraliev/ml-dip-workshop](https://github.com/ssheraliev/ml-dip-workshop)
 and its README is kept in `docs/original-README.md`. The router evaluation
-and further development are led by Karol Chlasta as part of WarsawIQ's
-research, and the project is now developed in the open.
+and further development are done as part of WarsawIQ's research, and the
+project is now developed in the open.
 
 ## Open to the community
 
