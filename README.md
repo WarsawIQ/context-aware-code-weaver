@@ -16,33 +16,34 @@ described in:
 > Submitted to MIDI 2026 (Machine Intelligence and Digital Interaction).
 
 The prototype was written by Sardor Sheraliev as his BSc diploma project at
-Kozminski University (2025), supervised by Karol Chlasta (original
-repository:
-[ssheraliev/ml-dip-workshop](https://github.com/ssheraliev/ml-dip-workshop),
-original README in `docs/original-README.md`). The router evaluation and the
-further development are led by the supervisor at WarsawIQ, and the project is
-shared here for development with the open-source community.
+Kozminski University in 2025, supervised by Karol Chlasta. The original
+repository is
+[ssheraliev/ml-dip-workshop](https://github.com/ssheraliev/ml-dip-workshop)
+and its README is kept in `docs/original-README.md`. The router evaluation
+and further development are led by Karol Chlasta at WarsawIQ, and the project
+is now developed in the open.
 
 ## Open to the community
 
 We publish this repository to open the project to anyone who wants to use it,
 study it or build on it. The code is under the MIT licence and the questions
 and results under CC BY 4.0, so commercial use, forks and derived research are
-all fine; we only ask for attribution and a citation of the paper.
+all allowed; we only ask for attribution and a citation of the paper.
 
 Contributions are welcome. The paper found the one-word router to be the
 weakest part of the assistant, so there is real work to do. Good places to
 start:
 
-- a routing method that gets the style guides onto the code path, or retrieves
-  them for every code request, instead of offering them as an alternative;
+- a routing method that brings the style guides onto the code path, or
+  retrieves them for every code request, instead of offering them as an
+  alternative;
 - measuring the generated code with unit tests and a linter instead of the
   model's own statement that it follows the style guide;
 - a classifier trained on labelled questions in place of the one-word prompt;
 - more documents in the knowledge base (project documentation, internal code)
   and a different vector store;
-- the evaluation run on other models, quantisations or Ollama versions, with
-  the results sent back as a pull request (`eval/results/<task>/<date>/`,
+- the evaluation repeated on other models, quantisations or Ollama versions,
+  with the results sent back as a pull request (`eval/results/<task>/<date>/`,
   with the `run.json` the script writes);
 - an editor integration in place of the Streamlit window.
 
