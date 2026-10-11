@@ -175,3 +175,8 @@ cython_debug/
 
 # The template above ignores *.log; keep the evaluation progress logs.
 !eval/results/**/*.log
+
+# Context-Aware Code Weaver: local index, Streamlit secrets, executed notebook copies
+chroma_db_nomic_v1_notebook_final/
+.streamlit/secrets.toml
+executed.ipynb

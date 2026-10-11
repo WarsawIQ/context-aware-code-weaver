@@ -1,0 +1,13 @@
+# Python packages for rag_llm_app.py and llm_RAG.ipynb.
+# Pinned to the versions checked on 11 October 2026 (Python 3.13, Linux);
+# if a pin does not resolve on your platform, drop the "==" parts.
+streamlit==1.65.0
+langchain-core==1.6.9
+langchain-community==0.4.2
+langchain-text-splitters==1.1.3
+langchain-nomic==1.0.1
+nomic[local]==3.9.0
+chromadb==1.5.9
+tavily-python==0.8.5
+# only for building the knowledge base from the notebook
+jupyter

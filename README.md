@@ -66,42 +66,99 @@ every change to a prompt or to the dataset should be a separate commit.
 | `eval/` | router evaluation: scripts, the 53-question dataset, both prompts, results of 10 October 2026, tests (see `eval/README.md`) |
 | `docs/` | the original README |
 
-## Running the assistant
+## Installation, step by step
 
-Prerequisites:
+Checked on 11 October 2026 on Linux with Python 3.13; the same steps apply
+on macOS and Windows. You need about 4 GB of disk for the model and the
+embedding model, and a machine that can hold a 4B model in memory (8 GB of
+RAM is enough; a GPU is not needed).
 
-- Python 3.10 or newer and the packages the code imports: `streamlit`,
-  `langchain-core`, `langchain-community`, `langchain-text-splitters`,
-  `langchain-nomic`, `nomic[local]`, `chromadb`, `tavily-python`
-  (`llm_app.py` also needs `langchain-ollama`). The original project did not
-  record versions; the evaluation checked the prompt rendering against
-  `langchain-core` 0.3.59.
-- [Ollama](https://ollama.com/) with the default Gemma 3 tag: `ollama pull gemma3`
-  (the 4B variant, Q4_K_M, 3.4 GB).
-- A [Tavily](https://tavily.com/) API key. Without it the application starts,
-  but every question routed to web search gets a fixed "web search is
-  disabled" reply.
-
-Steps:
-
-1. Build the knowledge base once by running `llm_RAG.ipynb` up to the
-   indexing cell. It downloads the three guides, splits them into chunks of
-   1,000 characters (overlap 200), embeds them locally with
-   `nomic-embed-text-v1.5` and writes `./chroma_db_nomic_v1_notebook_final/`.
-2. Put the key in `.streamlit/secrets.toml`:
-   ```toml
-   TAVILY_API_KEY = "..."
+1. **Install Ollama** from [ollama.com/download](https://ollama.com/download)
+   (Linux: `curl -fsSL https://ollama.com/install.sh | sh`) and pull the
+   model the application uses:
+   ```bash
+   ollama pull gemma3        # Gemma 3 4B, Q4_K_M, 3.3 GB
+   ollama list               # should show gemma3:latest
    ```
-3. Start the application:
+   Ollama runs as a service on `http://127.0.0.1:11434`; if it is not
+   running, start it with `ollama serve`.
+
+2. **Clone the repository and install the Python packages** into a virtual
+   environment:
+   ```bash
+   git clone https://github.com/WarsawIQ/context-aware-code-weaver.git
+   cd context-aware-code-weaver
+   python3 -m venv .venv
+   source .venv/bin/activate          # Windows: .venv\Scripts\activate
+   pip install -r requirements.txt
+   ```
+   `requirements.txt` pins the versions this was checked with. The
+   `langchain-community` package prints a deprecation warning at import;
+   it is harmless with these versions.
+
+3. **Get a Tavily key** for the web search path. Sign up at
+   [tavily.com](https://tavily.com/) (a free tier exists) and put the key
+   where Streamlit reads secrets:
+   ```bash
+   mkdir -p .streamlit
+   echo 'TAVILY_API_KEY = "tvly-..."' > .streamlit/secrets.toml
+   ```
+   Without the key the application still starts, but every question routed
+   to web search gets a fixed "web search is disabled" reply. Both files are
+   listed in `.gitignore`, so the key and the index are not committed.
+
+4. **Build the knowledge base** once. The notebook downloads PEP 8, the
+   Google Python Style Guide and the Rules of ML, splits them into 277
+   chunks of 1,000 characters, embeds them locally with
+   `nomic-embed-text-v1.5` (a 274 MB model, downloaded on first use into
+   `~/.cache/gpt4all/`) and writes `chroma_db_nomic_v1_notebook_final/`
+   (about 4 MB). It takes about two minutes. Either open it in Jupyter and
+   run the cells in order,
+   ```bash
+   jupyter notebook llm_RAG.ipynb
+   ```
+   or run it without a browser (the key can also be given as an
+   environment variable, which the notebook picks up instead of asking):
+   ```bash
+   TAVILY_API_KEY="tvly-..." jupyter nbconvert --to notebook --execute \
+     llm_RAG.ipynb --output executed.ipynb
+   ```
+   The last cells of the notebook send two test questions through the
+   whole chain, so a working Ollama is needed at that point. Messages
+   about `libllamamodel-mainline-cuda.so` mean only that no CUDA was
+   found; the embeddings are computed on the CPU.
+
+5. **Start the assistant:**
    ```bash
    streamlit run rag_llm_app.py
    ```
+   and open [http://localhost:8501](http://localhost:8501). Try a style
+   question, for example *Should I compare a value to None with == or with
+   is?* (routed to the knowledge base), and a code request, for example
+   *How to write Merge Sort Algorithm?* (routed to web search).
 
-Routing and answering use the same model at temperature 0. The knowledge-base
-chain retrieves the three most similar chunks and is told to answer only from
-them. The web chain receives Tavily's results (the code passes `k=3`, but the
-LangChain tool has no such parameter and returns its default of up to five)
-and a four-step prompt: intent, answer, style, insufficient information.
+If the application reports `Vector store not found`, step 4 has not been
+run in this directory; if it reports that it cannot connect to Ollama, see
+step 1.
+
+## Using it from Visual Studio Code
+
+The prototype is a web application, so in VS Code it runs in a panel
+rather than as an extension:
+
+1. Open the repository folder in VS Code and select the `.venv`
+   interpreter (`Python: Select Interpreter` in the Command Palette). The
+   notebook from step 4 can be run in VS Code's notebook editor with that
+   interpreter as the kernel.
+2. In the integrated terminal run `streamlit run rag_llm_app.py`.
+3. Open the Command Palette, choose `Simple Browser: Show` and enter
+   `http://localhost:8501`. The chat window opens as an editor tab next to
+   your code.
+
+Code completion or inline chat inside the editor is not part of the
+prototype. An editor integration (for example through
+[Continue](https://github.com/continuedev/continue), which already talks to
+Ollama) is on the list of contributions we would welcome.
 
 ## Evaluating the router
 
