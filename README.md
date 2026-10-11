@@ -68,8 +68,8 @@ every change to a prompt or to the dataset should be a separate commit.
 
 ## Installation, step by step
 
-Checked on 11 October 2026 on Linux with Python 3.13; the same steps apply
-on macOS and Windows. You need about 4 GB of disk for the model and the
+Checked on 11 October 2026 on Linux with Python 3.13; the steps should work
+the same on macOS and Windows. You need about 4 GB of disk for the model and the
 embedding model, and a machine that can hold a 4B model in memory (8 GB of
 RAM is enough; a GPU is not needed).
 
@@ -77,7 +77,7 @@ RAM is enough; a GPU is not needed).
    (Linux: `curl -fsSL https://ollama.com/install.sh | sh`) and pull the
    model the application uses:
    ```bash
-   ollama pull gemma3        # Gemma 3 4B, Q4_K_M, 3.3 GB
+   ollama pull gemma3        # Gemma 3 4B, Q4_K_M, 3.4 GB
    ollama list               # should show gemma3:latest
    ```
    Ollama runs as a service on `http://127.0.0.1:11434`; if it is not
@@ -104,15 +104,15 @@ RAM is enough; a GPU is not needed).
    echo 'TAVILY_API_KEY = "tvly-..."' > .streamlit/secrets.toml
    ```
    Without the key the application still starts, but every question routed
-   to web search gets a fixed "web search is disabled" reply. Both files are
-   listed in `.gitignore`, so the key and the index are not committed.
+   to web search gets a fixed "web search is disabled" reply. The file is
+   listed in `.gitignore`, so the key is not committed.
 
 4. **Build the knowledge base** once. The notebook downloads PEP 8, the
    Google Python Style Guide and the Rules of ML, splits them into 277
    chunks of 1,000 characters, embeds them locally with
    `nomic-embed-text-v1.5` (a 274 MB model, downloaded on first use into
    `~/.cache/gpt4all/`) and writes `chroma_db_nomic_v1_notebook_final/`
-   (about 4 MB). It takes about two minutes. Either open it in Jupyter and
+   (about 4 MB, also excluded by `.gitignore`). It takes about two minutes. Either open it in Jupyter and
    run the cells in order,
    ```bash
    jupyter notebook llm_RAG.ipynb
@@ -168,7 +168,10 @@ the run reported in the paper are in `eval/`, with instructions in
 `eval/README.md`. In short:
 
 ```bash
-ollama pull gemma3:4b llama3.1:8b qwen2.5:14b qwen2.5-coder:14b
+ollama pull gemma3:4b
+ollama pull llama3.1:8b
+ollama pull qwen2.5:14b
+ollama pull qwen2.5-coder:14b
 python3 eval/scripts/eval.py --task coding-router
 python3 eval/scripts/eval.py --task coding-router-notebook
 ```
